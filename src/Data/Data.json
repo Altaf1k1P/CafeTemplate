@@ -1,0 +1,116 @@
+{
+  "status": "success",
+  "message": "Data fetched successfully",
+  "menu": {
+    "Biryani": [
+      { "name": "Biryani", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
+      { "name": "South Indian", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
+      { "name": "North Indian", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
+      { "name": "Rolls", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
+      { "name": "Pizza", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
+      { "name": "Cake", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
+      { "name": "Burger", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" }
+    ],
+    "Kebabs & Desserts": [
+      { "name": "Biryani", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
+      { "name": "South Indian", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
+      { "name": "North Indian", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
+      { "name": "Rolls", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
+      { "name": "Pizza", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
+      { "name": "Cake", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
+      { "name": "Burger", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" }
+    ]
+  },
+  "biryaniSpecial": [
+    {
+      "image": "https://www.bagarabiryanicafe.com/assets/img/00icons/444.png",
+      "title": "Gutti Vankaya Bagara Biryani"
+    },
+    {
+      "image": "https://www.bagarabiryanicafe.com/assets/img/00icons/444.png",
+      "title": "Gutti Vankaya Bagara Biryani"
+    },
+    {
+      "image": "https://www.bagarabiryanicafe.com/assets/img/00icons/444.png",
+      "title": "Gutti Vankaya Bagara Biryani"
+    }
+  ],
+  "biryaniUnique": {
+    "features": [
+      {
+        "title": "In-House Food Processing Unit",
+        "description": "Streamlining cost-effective food production for quality and freshness."
+      },
+      {
+        "title": "Supply Chain Management",
+        "description": "Ensuring efficient sourcing, processing and distribution through single point of contact."
+      },
+      {
+        "title": "No Skilled Manpower Required",
+        "description": "Only last-mile regeneration like microwave or grill is required at the outlet level."
+      },
+      {
+        "title": "Consistency Assured",
+        "description": "Ensuring a consistent standard for all food items and beverages is guaranteed."
+      }
+    ],
+    "images": [
+      "https://www.bagarabiryanicafe.com/assets/img/kitchen/3.jpg",
+      "https://www.bagarabiryanicafe.com/assets/img/kitchen/2.jpg",
+      "https://www.bagarabiryanicafe.com/assets/img/kitchen/1.jpg"
+    ]
+  },
+  "cafeCulture": [
+    {
+      "image": "https://www.bagarabiryanicafe.com/assets/img/redef/1.png",
+      "title": "Vibrant Entertainment",
+      "description": "Hosting Open Mic and Stand-up Comedy Shows for lively experiences."
+    },
+    {
+      "image": "https://www.bagarabiryanicafe.com/assets/img/redef/1.png",
+      "title": "Joyous Celebrations",
+      "description": "Ideal venue for various celebrations, adding a festive touch to the cafe atmosphere."
+    },
+    {
+      "image": "https://www.bagarabiryanicafe.com/assets/img/redef/1.png",
+      "title": "Social Get-Togethers",
+      "description": "Welcoming spaces for social gatherings, fostering community connections."
+    }
+  ],
+  "outletGallery": {
+    "images": [
+      {
+        "src": "https://www.bagarabiryanicafe.com/UploadImages/e4139560-1cb0-4fe9-8f4a-23e4f5b8a9dd-gallery.jpeg",
+        "location": "Biryani Date",
+        "hashtag": "#BiryaniDate"
+      },
+      {
+        "src": "https://www.bagarabiryanicafe.com/UploadImages/42ce9d39-8492-4d12-80cf-d64f92f5936d-gallery.jpeg",
+        "location": "Aishwarya Mall",
+        "hashtag": "#OpeningSoon"
+      },
+      {
+        "src": "https://www.bagarabiryanicafe.com/UploadImages/e4139560-1cb0-4fe9-8f4a-23e4f5b8a9dd-gallery.jpeg",
+        "location": "Our signature Biryani",
+        "hashtag": "#Maharani"
+      },
+      {
+        "src": "https://www.bagarabiryanicafe.com/UploadImages/42ce9d39-8492-4d12-80cf-d64f92f5936d-gallery.jpeg",
+        "location": "JP Nagar",
+        "hashtag": "#OpeningSoon"
+      }
+    ],
+    "reels": [
+      {
+        "src": "https://www.bagarabiryanicafe.com/UploadImages/42ce9d39-8492-4d12-80cf-d64f92f5936d-gallery.jpeg",
+        "location": "Reel Location 1",
+        "hashtag": "#ReelFun"
+      },
+      {
+        "src": "https://www.bagarabiryanicafe.com/images/reels/reel2.jpg",
+        "location": "Reel Location 2",
+        "hashtag": "#MoreReels"
+      }
+    ]
+  }
+}
