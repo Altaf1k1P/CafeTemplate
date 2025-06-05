@@ -17,7 +17,7 @@ function Hero() {
     <section
       className=" text-white  md:pb-30  overflow-hidden "
     >
-        <div className="relative  py-[7%]  flex flex-col md:flex-row items-center justify-between  md:h-[80vh] w-full bg-[url('https://www.bagarabiryanicafe.com/assets/img//00icons/bg.webp')] bg-cover bg-center">
+        <div className="relative  py-[7%]  flex flex-col md:flex-row items-center justify-between  md:h-[80vh] w-full bg-[url('./img/hero.png')] bg-cover bg-center">
        
      <motion.img
         src="https://www.bagarabiryanicafe.com/assets/new-img/ele.png"
