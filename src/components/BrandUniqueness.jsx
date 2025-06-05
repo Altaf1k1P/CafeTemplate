@@ -30,7 +30,7 @@ const BrandUniqueness = ({features, sliderImages }) => {
     pauseOnHover: true,
   };
   return (
-    <div className="bg-[#6e200a] text-white py-20 px-8 md:px-20">
+    <div className="bg-[#6e200a] text-white py-20 px-10 md:px-20">
       <h2 className="text-4xl md:text-5xl font-bold leading-tight md:mb-12 mb-4 text-center">
         Uniqueness About Our Brand
       </h2>
@@ -39,7 +39,7 @@ const BrandUniqueness = ({features, sliderImages }) => {
         {/* Auto Scroll Image */}
         <motion.div
           animate={controls}
-          className="overflow-hidden w-[400px] md:w-[500px] max-h-[500px] rounded shadow-lg"
+          className="overflow-hidden w-[350px] md:w-[500px] max-h-[500px] rounded shadow-lg"
         >
            <Slider {...sliderSettings}>
             {sliderImages.map((src, idx) => (
