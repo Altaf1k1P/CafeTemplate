@@ -3,32 +3,32 @@ import { motion, useAnimation } from 'framer-motion';
 import Slider from 'react-slick';
 import { useEffect } from 'react';
 
-const features = [
-  {
-    title: "In-House Food Processing Unit:",
-    description: "Streamlining cost-effective food production for quality and freshness.",
-  },
-  {
-    title: "Supply Chain Management:",
-    description: "Ensuring efficient sourcing, processing and distribution through single point of contact.",
-  },
-  {
-    title: "No Skilled Manpower Required:",
-    description: "Only last-mile regeneration like microwave or grill is required at the outlet level.",
-  },
-  {
-    title: "Consistency Assured:",
-    description: "Ensuring a consistent standard for all food items and beverages is guaranteed.",
-  },
-];
+// const features = [
+//   {
+//     title: "In-House Food Processing Unit:",
+//     description: "Streamlining cost-effective food production for quality and freshness.",
+//   },
+//   {
+//     title: "Supply Chain Management:",
+//     description: "Ensuring efficient sourcing, processing and distribution through single point of contact.",
+//   },
+//   {
+//     title: "No Skilled Manpower Required:",
+//     description: "Only last-mile regeneration like microwave or grill is required at the outlet level.",
+//   },
+//   {
+//     title: "Consistency Assured:",
+//     description: "Ensuring a consistent standard for all food items and beverages is guaranteed.",
+//   },
+// ];
 
-const sliderImages = [
-  'https://www.bagarabiryanicafe.com/assets/img/kitchen/3.jpg',
-  'https://www.bagarabiryanicafe.com/assets/img/kitchen/2.jpg',
-  'https://www.bagarabiryanicafe.com/assets/img/kitchen/1.jpg'
-];
+// const sliderImages = [
+//   'https://www.bagarabiryanicafe.com/assets/img/kitchen/3.jpg',
+//   'https://www.bagarabiryanicafe.com/assets/img/kitchen/2.jpg',
+//   'https://www.bagarabiryanicafe.com/assets/img/kitchen/1.jpg'
+// ];
 
-const BrandUniqueness = () => {
+const BrandUniqueness = ({features, sliderImages }) => {
   const controls = useAnimation();
 
   useEffect(() => {

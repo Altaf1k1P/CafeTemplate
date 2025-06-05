@@ -3,25 +3,25 @@
   "message": "Data fetched successfully",
   "menu": {
     "Biryani": [
-      { "name": "Biryani", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
-      { "name": "South Indian", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
-      { "name": "North Indian", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
-      { "name": "Rolls", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
-      { "name": "Pizza", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
-      { "name": "Cake", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
-      { "name": "Burger", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" }
+      { "name": "Biryani", "img": "./img/menuImg.png" },
+      { "name": "South Indian", "img": "./img/menuImg.png" },
+      { "name": "North Indian", "img": "./img/menuImg.png" },
+      { "name": "Rolls", "img": "./img/menuImg.png" },
+      { "name": "Pizza", "img": "./img/menuImg.png" },
+      { "name": "Cake", "img": "./img/menuImg.png" },
+      { "name": "Burger", "img": "./img/menuImg.png" }
     ],
-    "Kebabs & Desserts": [
-      { "name": "Biryani", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
-      { "name": "South Indian", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
-      { "name": "North Indian", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
-      { "name": "Rolls", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
-      { "name": "Pizza", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
-      { "name": "Cake", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" },
-      { "name": "Burger", "img": "https://www.bagarabiryanicafe.com/UploadImages/5ec8f20f-2bf5-4dde-8116-8d711263df86-otherProducts.jpeg" }
+    "KebabsAndDesserts": [
+      { "name": "Biryani", "img": "./img/menuImg.png" },
+      { "name": "South Indian", "img": "./img/menuImg.png" },
+      { "name": "North Indian", "img": "./img/menuImg.png" },
+      { "name": "Rolls", "img": "./img/menuImg.png" },
+      { "name": "Pizza", "img": "./img/menuImg.png" },
+      { "name": "Cake", "img": "./img/menuImg.png" },
+      { "name": "Burger", "img": "./img/menuImg.png" }
     ]
   },
-  "biryaniSpecial": [
+  "biryaniSpecialData": [
     {
       "image": "https://www.bagarabiryanicafe.com/assets/img/00icons/444.png",
       "title": "Gutti Vankaya Bagara Biryani"
@@ -35,7 +35,7 @@
       "title": "Gutti Vankaya Bagara Biryani"
     }
   ],
-  "biryaniUnique": {
+  "biryaniUniqueData": {
     "features": [
       {
         "title": "In-House Food Processing Unit",
@@ -54,13 +54,13 @@
         "description": "Ensuring a consistent standard for all food items and beverages is guaranteed."
       }
     ],
-    "images": [
+    "sliderImages": [
       "https://www.bagarabiryanicafe.com/assets/img/kitchen/3.jpg",
       "https://www.bagarabiryanicafe.com/assets/img/kitchen/2.jpg",
       "https://www.bagarabiryanicafe.com/assets/img/kitchen/1.jpg"
     ]
   },
-  "cafeCulture": [
+  "cafeCultureData": [
     {
       "image": "https://www.bagarabiryanicafe.com/assets/img/redef/1.png",
       "title": "Vibrant Entertainment",
@@ -77,7 +77,7 @@
       "description": "Welcoming spaces for social gatherings, fostering community connections."
     }
   ],
-  "outletGallery": {
+  "customerMedia": {
     "images": [
       {
         "src": "https://www.bagarabiryanicafe.com/UploadImages/e4139560-1cb0-4fe9-8f4a-23e4f5b8a9dd-gallery.jpeg",
@@ -112,5 +112,19 @@
         "hashtag": "#MoreReels"
       }
     ]
+  },
+  "outletData": [
+  {
+    "name": "Neeladri Nagar",
+    "img": "https://www.bagarabiryanicafe.com/UploadImages/a3ecb876-dd80-4bc9-8c47-184e769c0faf-outletImage.jpeg"
+  },
+  {
+    "name": "Somasundarapalya",
+    "img": "https://www.bagarabiryanicafe.com/UploadImages/8ecce786-df81-4174-8921-8ceea03e258c-outletImage.jpeg"
+  },
+  {
+    "name": "Kasavanahalli",
+    "img": "https://www.bagarabiryanicafe.com/UploadImages/ee611a26-026d-40b3-8303-1351b852fab1-outletImage.jpeg"
   }
+]
 }

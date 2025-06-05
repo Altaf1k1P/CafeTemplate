@@ -1,44 +1,44 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 
-const customerMedia = {
-  images: [
-    {
-      src: 'https://www.bagarabiryanicafe.com/UploadImages/e4139560-1cb0-4fe9-8f4a-23e4f5b8a9dd-gallery.jpeg',
-      location: 'Biryani Date',
-      hashtag: '#BiryaniDate'
-    },
-    {
-      src: 'https://www.bagarabiryanicafe.com/UploadImages/42ce9d39-8492-4d12-80cf-d64f92f5936d-gallery.jpeg',
-      location: 'Aishwarya Mall',
-      hashtag: '#OpeningSoon'
-    },
-    {
-      src: 'https://www.bagarabiryanicafe.com/UploadImages/e4139560-1cb0-4fe9-8f4a-23e4f5b8a9dd-gallery.jpeg',
-      location: 'Our signature Biryani',
-      hashtag: '#Maharani'
-    },
-    {
-      src: 'https://www.bagarabiryanicafe.com/UploadImages/42ce9d39-8492-4d12-80cf-d64f92f5936d-gallery.jpeg',
-      location: 'JP Nagar',
-      hashtag: '#OpeningSoon'
-    }
-  ],
-  reels: [
-    {
-      src: 'https://www.bagarabiryanicafe.com/UploadImages/42ce9d39-8492-4d12-80cf-d64f92f5936d-gallery.jpeg',
-      location: 'Reel Location 1',
-      hashtag: '#ReelFun'
-    },
-    {
-      src: '/images/reels/reel2.jpg',
-      location: 'Reel Location 2',
-      hashtag: '#MoreReels'
-    }
-  ]
-};
+// const customerMedia = {
+//   images: [
+//     {
+//       src: 'https://www.bagarabiryanicafe.com/UploadImages/e4139560-1cb0-4fe9-8f4a-23e4f5b8a9dd-gallery.jpeg',
+//       location: 'Biryani Date',
+//       hashtag: '#BiryaniDate'
+//     },
+//     {
+//       src: 'https://www.bagarabiryanicafe.com/UploadImages/42ce9d39-8492-4d12-80cf-d64f92f5936d-gallery.jpeg',
+//       location: 'Aishwarya Mall',
+//       hashtag: '#OpeningSoon'
+//     },
+//     {
+//       src: 'https://www.bagarabiryanicafe.com/UploadImages/e4139560-1cb0-4fe9-8f4a-23e4f5b8a9dd-gallery.jpeg',
+//       location: 'Our signature Biryani',
+//       hashtag: '#Maharani'
+//     },
+//     {
+//       src: 'https://www.bagarabiryanicafe.com/UploadImages/42ce9d39-8492-4d12-80cf-d64f92f5936d-gallery.jpeg',
+//       location: 'JP Nagar',
+//       hashtag: '#OpeningSoon'
+//     }
+//   ],
+//   reels: [
+//     {
+//       src: 'https://www.bagarabiryanicafe.com/UploadImages/42ce9d39-8492-4d12-80cf-d64f92f5936d-gallery.jpeg',
+//       location: 'Reel Location 1',
+//       hashtag: '#ReelFun'
+//     },
+//     {
+//       src: '/images/reels/reel2.jpg',
+//       location: 'Reel Location 2',
+//       hashtag: '#MoreReels'
+//     }
+//   ]
+// };
 
-const HappyCustomers = () => {
+const HappyCustomers = ({customerMedia}) => {
   const [tab, setTab] = useState('images');
 
   return (

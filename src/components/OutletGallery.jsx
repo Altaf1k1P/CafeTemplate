@@ -15,7 +15,7 @@ const outlets = [
   },
 ];
 
-const OutletGallery = () => {
+const OutletGallery = ({outlets}) => {
   return (
     <div className="py-12 px-4 bg-white">
       <h2 className="text-4xl md:text-5xl text-center font-bold mb-12">

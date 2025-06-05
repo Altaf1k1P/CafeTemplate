@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import rowData from '../Data/Data.json';
 
 const DataContext = createContext();
 
@@ -6,11 +7,9 @@ export const DataProvider = ({ children }) => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    // Simulate fetching data (replace with real fetch if needed)
+
     const fetchData = async () => {
-      const res = await fetch('/data.json'); // OR your actual API
-      const result = await res.json();
-      setData(result);
+         setData(rowData);
     };
 
     fetchData();

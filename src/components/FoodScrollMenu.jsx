@@ -39,13 +39,13 @@ const FoodScrollMenu = ({ items, text, bgColor = 'bg-white' }) => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
     ],
@@ -55,9 +55,9 @@ const FoodScrollMenu = ({ items, text, bgColor = 'bg-white' }) => {
     <div className={`relative w-full py-[4%] ${bgColor} px-8`}>
       <h2 className='text-4xl md:text-5xl text-center font-bold leading-tight mb-10'>{text}</h2>
       <Slider {...settings}>
-        {items.map((item) => (
+        {Array.isArray(items) && items.map((item) => (
           <div key={item.name} className='px-2'>
-            <div className='flex flex-col gap-1 items-center px-12 h-[300px]'>
+            <div className='flex flex-col gap-1 items-center px-12'>
               <img
                 src={item.img}
                 alt={item.name}

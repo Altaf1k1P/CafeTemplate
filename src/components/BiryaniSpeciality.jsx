@@ -3,19 +3,19 @@ import Slider from "react-slick";
 // import biryani1 from "./assets/biryani1.png"; // replace with your image
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-const data = [
-  {
-    image: "https://www.bagarabiryanicafe.com/assets/img/00icons/444.png",
-    title: "Gutti Vankaya Bagara Biryani",
-  },{
-    image: "https://www.bagarabiryanicafe.com/assets/img/00icons/444.png",
-    title: "Gutti Vankaya Bagara Biryani",
-  },{
-    image: "https://www.bagarabiryanicafe.com/assets/img/00icons/444.png",
-    title: "Gutti Vankaya Bagara Biryani",
-  },
-  // Add more images/titles here if needed
-];
+// const data = [
+//   {
+//     image: "https://www.bagarabiryanicafe.com/assets/img/00icons/444.png",
+//     title: "Gutti Vankaya Bagara Biryani",
+//   },{
+//     image: "https://www.bagarabiryanicafe.com/assets/img/00icons/444.png",
+//     title: "Gutti Vankaya Bagara Biryani",
+//   },{
+//     image: "https://www.bagarabiryanicafe.com/assets/img/00icons/444.png",
+//     title: "Gutti Vankaya Bagara Biryani",
+//   },
+//   // Add more images/titles here if needed
+// ];
 
 const PrevArrow = ({ onClick }) => (
   <div
@@ -35,7 +35,7 @@ const NextArrow = ({ onClick }) => (
   </div>
 );
 
-const BiryaniSpeciality = () => {
+const BiryaniSpeciality = ({data}) => {
   const settings = {
     infinite: true,
     slidesToShow: 1,
