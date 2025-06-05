@@ -52,8 +52,8 @@ const FoodScrollMenu = ({ items, text, bgColor = 'bg-white' }) => {
   };
 
   return (
-    <div className={`relative w-full py-[4%] ${bgColor} px-8`}>
-      <h2 className='text-4xl md:text-5xl text-center font-bold leading-tight mb-10'>{text}</h2>
+    <div className={`relative w-full pt-5 pb-[4%] ${bgColor} px-8`}>
+      <h2 className='text-4xl md:text-5xl text-center font-bold leading-tight mb-[4%]'>{text}</h2>
       <Slider {...settings}>
         {Array.isArray(items) && items.map((item) => (
           <div key={item.name} className='px-2'>

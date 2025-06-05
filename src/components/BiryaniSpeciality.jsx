@@ -3,19 +3,7 @@ import Slider from "react-slick";
 // import biryani1 from "./assets/biryani1.png"; // replace with your image
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-// const data = [
-//   {
-//     image: "https://www.bagarabiryanicafe.com/assets/img/00icons/444.png",
-//     title: "Gutti Vankaya Bagara Biryani",
-//   },{
-//     image: "https://www.bagarabiryanicafe.com/assets/img/00icons/444.png",
-//     title: "Gutti Vankaya Bagara Biryani",
-//   },{
-//     image: "https://www.bagarabiryanicafe.com/assets/img/00icons/444.png",
-//     title: "Gutti Vankaya Bagara Biryani",
-//   },
-//   // Add more images/titles here if needed
-// ];
+
 
 const PrevArrow = ({ onClick }) => (
   <div
@@ -47,14 +35,15 @@ const BiryaniSpeciality = ({data}) => {
   };
 
   return (
-    <div className="bg-[url('https://www.bagarabiryanicafe.com/assets/img/banner/main-bg.jpg')] bg-cover bg-center text-white py-16 px-8 md:px-20 relative">
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-        <div className="max-w-xl">
-          <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
+    <div className=" bg-[url('https://www.bagarabiryanicafe.com/assets/img/banner/main-bg.jpg')] bg-cover bg-center text-white py-16 px-8 md:px-20 relative">
+      <div className="relative grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+        <div className=" max-w-xl">
+          <h2 className="text-4xl md:text-5xl font-bold leading-tight md:mb-5 mb-4">
             Our Specialty <br />
             Bucket Biryani <br />
             & Biryani Bowls
           </h2>
+         
         </div>
 
         <div className="relative">
@@ -71,6 +60,12 @@ const BiryaniSpeciality = ({data}) => {
             ))}
           </Slider>
         </div>
+        
+         <img 
+         src="https://www.bagarabiryanicafe.com/assets/img/00icons/side.png"
+        alt="spice"
+        className="hidden md:block absolute  top-45  left-0 w-40"
+        />
       </div>
       
     </div>

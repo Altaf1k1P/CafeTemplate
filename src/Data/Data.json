@@ -102,15 +102,25 @@
     ],
     "reels": [
       {
-        "src": "https://www.bagarabiryanicafe.com/UploadImages/42ce9d39-8492-4d12-80cf-d64f92f5936d-gallery.jpeg",
-        "location": "Reel Location 1",
-        "hashtag": "#ReelFun"
-      },
-      {
-        "src": "https://www.bagarabiryanicafe.com/images/reels/reel2.jpg",
-        "location": "Reel Location 2",
-        "hashtag": "#MoreReels"
-      }
+      "src": "https://www.instagram.com/reel/DFXlxfpSBnY/?utm_source=ig_embed&utm_campaign=loading",
+      "location": "Insta Reel",
+      "hashtag": "#ReelFun"
+    },
+       {
+      "src": "https://www.instagram.com/reel/DFXlxfpSBnY/?utm_source=ig_embed&utm_campaign=loading",
+      "location": "Insta Reel",
+      "hashtag": "#ReelFun"
+    },
+     {
+      "src": "https://www.instagram.com/reel/DFXlxfpSBnY/?utm_source=ig_embed&utm_campaign=loading",
+      "location": "Insta Reel",
+      "hashtag": "#ReelFun"
+    },
+     {
+      "src": "https://www.instagram.com/reel/DFXlxfpSBnY/?utm_source=ig_embed&utm_campaign=loading",
+      "location": "Insta Reel",
+      "hashtag": "#ReelFun"
+    }
     ]
   },
   "outletData": [

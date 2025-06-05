@@ -7,6 +7,7 @@ import BrandUniqueness from '../components/BrandUniqueness';
 import BiryaniSpeciality from '../components/BiryaniSpeciality';
 import FranchisePromo from '../components/FranchisePromo';
 import OutletGallery from '../components/OutletGallery';
+import Hero from '../components/Hero';
 
 function Home() {
   const { data } = useData();
@@ -15,6 +16,7 @@ function Home() {
 
   return (
     <>
+    <Hero/>
       <FoodScrollMenu items={data.menu.Biryani} text="Explore Our Menu" />
       <FoodScrollMenu items={data.menu.KebabsAndDesserts} text="Kebabs & Desserts" bgColor="bg-[#f5f0e9]" />
       <BiryaniSpeciality data={data.biryaniSpecialData} />

@@ -2,23 +2,7 @@
 import React from 'react';
 import CafeCard from './CafeCard';
 
-// const content = [
-//   {
-//     image: 'https://www.bagarabiryanicafe.com/assets/img/redef/1.png',
-//     title: 'Vibrant Entertainment',
-//     description: 'Hosting Open Mic and Stand-up Comedy Shows for lively experiences.',
-//   },
-//   {
-//     image: 'https://www.bagarabiryanicafe.com/assets/img/redef/1.png',
-//     title: 'Joyous Celebrations',
-//     description: 'Ideal venue for various celebrations, adding a festive touch to the cafe atmosphere.',
-//   },
-//   {
-//     image: 'https://www.bagarabiryanicafe.com/assets/img/redef/1.png',
-//     title: 'Social Get-Togethers',
-//     description: 'Welcoming spaces for social gatherings, fostering community connections.',
-//   },
-// ];
+
 
 const CafeCulture = ({content}) => {
   return (
