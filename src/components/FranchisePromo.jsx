@@ -15,7 +15,7 @@ const FranchisePromo = () => {
   return (
     <section className="bg-[#f5f0e9] py-12 px-4 text-center font-sans">
       {/* Heading */}
-      <h2 className="text-2xl md:text-3xl font-bold text-[#1d1d1d] mb-8 leading-snug">
+      <h2 className="text-4xl md:text-5xl font-bold leading-tight md:mb-5 mb-4">
         Partner with{' '}
         <span className="text-[#ac7339]">India's Fastest</span> <br />
         Growing Biryani <span className="text-[#ac7339]">Franchise</span>

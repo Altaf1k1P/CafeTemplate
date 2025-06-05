@@ -1,6 +1,5 @@
 import React from "react";
 import Slider from "react-slick";
-// import biryani1 from "./assets/biryani1.png"; // replace with your image
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 
@@ -35,10 +34,10 @@ const BiryaniSpeciality = ({data}) => {
   };
 
   return (
-    <div className=" bg-[url('https://www.bagarabiryanicafe.com/assets/img/banner/main-bg.jpg')] bg-cover bg-center text-white py-16 px-8 md:px-20 relative">
-      <div className="relative grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+    <div className="relative overflow-hidden bg-[url('https://www.bagarabiryanicafe.com/assets/img/banner/main-bg.jpg')] bg-cover bg-center text-white py-16 px-8 md:px-20 relative"> 
+      <div className=" grid grid-cols-1 md:grid-cols-2 items-center gap-8 ">
         <div className=" max-w-xl">
-          <h2 className="text-4xl md:text-5xl font-bold leading-tight md:mb-5 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold leading-tight text-center md:mb-5 mb-4">
             Our Specialty <br />
             Bucket Biryani <br />
             & Biryani Bowls
@@ -53,18 +52,22 @@ const BiryaniSpeciality = ({data}) => {
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-[300px] mx-auto"
+                  className="w-full mx-auto"
                 />
                 <p className="mt-4 text-lg font-semibold">{item.title}</p>
               </div>
             ))}
           </Slider>
         </div>
-        
          <img 
          src="https://www.bagarabiryanicafe.com/assets/img/00icons/side.png"
         alt="spice"
-        className="hidden md:block absolute  top-45  left-0 w-40"
+        className="hidden md:block absolute  bottom-[-60px]  left-[-30px] w-60"
+        />
+        <img 
+         src="https://www.bagarabiryanicafe.com/assets/img/shape/tomato-shape-2.png"
+        alt="spice"
+        className=" md:block absolute  bottom-[-30px]  right-10 md:w-60 w-40"
         />
       </div>
       

@@ -1,14 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
- // optional: local spice icon
-
 function Hero() {
   return (
     <section
       className=" text-white  pb-30  overflow-hidden "
     >
         <div className="relative  py-[7%]  flex flex-col md:flex-row items-center justify-between  md:h-[80vh] w-full bg-[url('https://www.bagarabiryanicafe.com/assets/img//00icons/bg.webp')] bg-cover bg-center">
-       {/* Spice Icons - Background Decorative */}
+       
       <img
         src="https://www.bagarabiryanicafe.com/assets/new-img/ele.png"
         alt="spice"
@@ -21,7 +19,7 @@ function Hero() {
       />
      
       {/* Left Content */}
-      <div className="max-w-xl md:pl-[6%]  md:w-1/2 z-10">
+      <div className="max-w-xl md:pl-[6%]  md:w-1/2 z-10 fade-spice">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight font-serif">
           Get Addicted <br />
           to <span className="text-[#f5d042]">30 spices</span> <br />
@@ -31,8 +29,6 @@ function Hero() {
           View Menu →
         </button>
       </div>
-
-      {/* Right Side - Rotating Biryani */}
       <motion.div
         className="w-[70%] md:w-1/2 rounded-full  md:absolute md:right-8 md:top-[-20px]  overflow-hidden z-10"
         animate={{ rotate: 360 }}
@@ -48,8 +44,7 @@ function Hero() {
           className="w-full h-full object-cover"
         />
       </motion.div>
-    </div>
-      
+    </div>   
     </section>
   );
 }

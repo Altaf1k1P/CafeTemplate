@@ -31,7 +31,7 @@ const BrandUniqueness = ({features, sliderImages }) => {
   };
   return (
     <div className="bg-[#6e200a] text-white py-20 px-8 md:px-20">
-      <h2 className="text-4xl md:text-5xl font-bold text-center text-white mb-12">
+      <h2 className="text-4xl md:text-5xl font-bold leading-tight md:mb-12 mb-4 text-center">
         Uniqueness About Our Brand
       </h2>
 

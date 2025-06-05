@@ -7,7 +7,7 @@ import CafeCard from './CafeCard';
 const CafeCulture = ({content}) => {
   return (
     <section className="py-16 bg-white text-center">
-      <h2 className="text-4xl font-bold text-brown-700 mb-12">
+      <h2 className="text-4xl md:text-5xl font-bold leading-tight md:mb-12 mb-4">
         Redefining <span className="text-orange-700">Cafe Culture</span> in India
       </h2>
       <div className="flex flex-wrap justify-center text-left gap-8 max-w-full md:mx-auto">
