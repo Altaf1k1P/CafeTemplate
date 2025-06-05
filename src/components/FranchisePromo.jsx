@@ -35,7 +35,7 @@ const FranchisePromo = () => {
     <video
       controls
       poster="https://www.bagarabiryanicafe.com/assets/new-img/poster.png"
-      className="w-full max-w-[600px] rounded-xl border-8 border-white shadow-lg"
+      className="w-full max-w-[600px] min-w-[300px] rounded-xl border-8 border-white shadow-lg"
       src="https://www.bagarabiryanicafe.com/assets/new-img/v2.mp4"
     />
   </div>
