@@ -1,21 +1,37 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+
+
+const spiceFloat = {
+  animate: {
+    y: [0, -10, 0],
+    transition: {
+      duration: 4,
+      repeat: Infinity,
+      ease: 'easeInOut',
+    },
+  },
+};
 function Hero() {
   return (
     <section
-      className=" text-white  pb-30  overflow-hidden "
+      className=" text-white  md:pb-30  overflow-hidden "
     >
         <div className="relative  py-[7%]  flex flex-col md:flex-row items-center justify-between  md:h-[80vh] w-full bg-[url('https://www.bagarabiryanicafe.com/assets/img//00icons/bg.webp')] bg-cover bg-center">
        
-      <img
+     <motion.img
         src="https://www.bagarabiryanicafe.com/assets/new-img/ele.png"
         alt="spice"
         className="hidden md:block absolute top-30 left-10 w-25 opacity-50"
+        variants={spiceFloat}
+        animate="animate"
       />
-      <img
+       <motion.img
         src="https://www.bagarabiryanicafe.com/assets/new-img/ele.png"
         alt="spice"
         className="hidden md:block absolute top-1/4 left-[45%] w-25 opacity-40"
+        variants={spiceFloat}
+        animate="animate"
       />
      
       {/* Left Content */}

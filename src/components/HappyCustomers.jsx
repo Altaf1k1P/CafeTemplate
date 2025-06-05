@@ -43,10 +43,12 @@ const HappyCustomers = ({ customerMedia }) => {
                 alt={item.location}
                 className="w-full h-full object-cover transform group-hover:scale-105 transition duration-300"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition flex flex-col justify-end p-4">
+              <div className="absolute inset-0 backdrop-blur-md bg-black bg-opacity-40 opacity-0 group-hover:opacity-50 transition duration-300 flex flex-col justify-center items-center">
+                <div className="text-white text-5xl font-bold mb-2 cursor-pointer">+</div>
                 <p className="text-sm font-semibold">Loc: {item.location}</p>
                 <p className="text-xs text-gray-300">{item.hashtag}</p>
               </div>
+
             </div>
           ))}
 
